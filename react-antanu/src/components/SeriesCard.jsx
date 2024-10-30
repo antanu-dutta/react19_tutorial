@@ -4,7 +4,7 @@ const SeriesCard = ({ curElem }) => {
   return (
     <li>
       <div>
-        <img src={img_url} alt={name} width={"40%"} height={"40%"} />
+        <img src={img_url} alt={name} style={{ width: "300px" }} />
       </div>
       <h2>Name: {name}</h2>
       <h3>Rating {rating}</h3>
