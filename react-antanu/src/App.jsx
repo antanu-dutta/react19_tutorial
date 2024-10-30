@@ -1,12 +1,9 @@
-import Series from "./components/NetfliexSeries";
-import { Footer } from "./components/NetfliexSeries";
+import NetflixSeries from "./components/NetfliexSeries";
 
 export const App = () => {
   return (
     <div>
-      <Series />
-      <Series />
-      <Footer />
+      <NetflixSeries />
     </div>
   );
 };

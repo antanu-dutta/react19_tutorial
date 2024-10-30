@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Iron Man",
+      "id": "iron-man",
+      "img_url": "https://www.movieposters.com/cdn/shop/products/3998dd3fa7e628e415e9805b960bec61_480x.progressive.jpg?v=1573592743",
+      "rating": "7.9",
+      "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+      "cast": ["Robert Downey Jr.", "Gwyneth Paltrow", "Jeff Bridges"],
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "watch_url": "https://www.hotstar.com/in/movies/iron-man/1660000038"
+    },
+    {
+      "name": "The Avengers",
+      "id": "the-avengers",
+      "img_url": "https://www.movieposters.com/cdn/shop/files/avengers.24x36_480x.progressive.jpg?v=1707410714",
+      "rating": "8.0",
+      "description": "Earth's mightiest heroes must come together to stop Loki and his alien army from enslaving humanity.",
+      "cast": ["Robert Downey Jr.", "Chris Evans", "Scarlett Johansson", "Mark Ruffalo"],
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "watch_url": "https://www.hotstar.com/in/movies/marvels-the-avengers/1660000015"
+    },
+    {
+      "name": "Black Panther",
+      "id": "black-panther",
+      "img_url": "https://www.movieposters.com/cdn/shop/products/08dbbb8ce1abd9ecf6ba84673fbddb15_7199c853-a5f2-4b75-a629-cc7477efe67c_480x.progressive.jpg?v=1573593931",
+      "rating": "7.3",
+      "description": "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and confront a challenger from his country's past.",
+      "cast": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o"],
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "watch_url": "https://www.disneyplus.com/movies/black-panther/5f9YpER4O3EP"
+    },
+    {
+      "name": "Spider-Man: No Way Home",
+      "id": "spider-man-no-way-home",
+      "img_url": "https://www.movieposters.com/cdn/shop/products/spider-man-no-way-home_0qwdfqor_480x.progressive.jpg?v=1643303810",
+      "rating": "8.7",
+      "description": "Peter Parker's life and reputation are turned upside down after his identity is revealed. Seeking help from Doctor Strange, he faces the consequences of messing with the multiverse.",
+      "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch"],
+      "genre": ["Action", "Adventure", "Sci-Fi"],
+      "watch_url": "https://www.disneyplus.com/movies/spider-man-no-way-home/6e3FLXGHIhE5"
+    },
+    {
+      "name": "Guardians of the Galaxy",
+      "id": "guardians-of-the-galaxy",
+      "img_url": "https://www.movieposters.com/cdn/shop/products/0cc70cae1f62b215aee14211c78fe95e_cda1a52f-e010-476a-9cb8-cd4392848bf7_480x.progressive.jpg?v=1573584677",
+      "rating": "8.0",
+      "description": "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+      "cast": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+      "genre": ["Action", "Adventure", "Comedy"],
+      "watch_url": "https://www.disneyplus.com/movies/guardians-of-the-galaxy/3A7PTZRp1AQJ"
+    },
+    {
+      "name": "Doctor Strange",
+      "id": "doctor-strange",
+      "img_url": "https://www.movieposters.com/cdn/shop/files/scan_8a2bc9c7-440b-48e8-9984-6698e5145482_480x.progressive.jpg?v=1698436095",
+      "rating": "7.5",
+      "description": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+      "cast": ["Benedict Cumberbatch", "Chiwetel Ejiofor", "Rachel McAdams"],
+      "genre": ["Action", "Adventure", "Fantasy"],
+      "watch_url": "https://www.disneyplus.com/movies/doctor-strange/4jEeGyyJQbB6"
+    }
+  ]
+  
