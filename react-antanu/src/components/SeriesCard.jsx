@@ -1,21 +1,17 @@
 import React from "react";
 
 const SeriesCard = ({ curElem }) => {
+  const { img_url, name, rating, description, watch_url } = curElem;
   return (
-    <li key={curElem.id}>
+    <li>
       <div>
-        <img
-          src={curElem.img_url}
-          alt={curElem.name}
-          width={"40%"}
-          height={"40%"}
-        />
+        <img src={img_url} alt={name} width={"40%"} height={"40%"} />
       </div>
-      <h2>Name: {curElem.name}</h2>
-      <h3>Rating {curElem.rating}</h3>
-      <p>Sumamry:{curElem.description}</p>
+      <h2>Name: {name}</h2>
+      <h3>Rating {rating}</h3>
+      <p>Sumamry:{description}</p>
       <p>Genre:</p>
-      <a href={curElem.watch_url} target="_blank">
+      <a href={watch_url} target="_blank">
         Watch Now
       </a>
     </li>
