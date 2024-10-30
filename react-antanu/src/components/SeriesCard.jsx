@@ -1,5 +1,4 @@
-import React from "react";
-
+/* eslint-disable react/prop-types */
 const SeriesCard = ({ curElem }) => {
   const { img_url, name, rating, description, watch_url } = curElem;
   return (
