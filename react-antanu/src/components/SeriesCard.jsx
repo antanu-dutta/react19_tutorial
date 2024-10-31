@@ -1,14 +1,18 @@
 import styles from "../components/Netflix.module.css";
+import styled from "styled-components";
 
 /* eslint-disable react/prop-types */
 const SeriesCard = ({ curElem }) => {
   const { img_url, name, rating, description, watch_url } = curElem; // ? Props
 
-  // ? Button Style
-  const myStyle = {
-    padding: "10px 12px", // ? Padding
-    marginTop: "10px", // ?  Margin Top
-  };
+  const Button = styled.button`
+    padding: 10px 12px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: ${({ rating }) =>
+      rating >= 8.5 ? "#7dcea0" : "#f7dc6f"};
+  `;
 
   console.log(styles);
 
@@ -33,7 +37,8 @@ const SeriesCard = ({ curElem }) => {
       </p>
       <p>Genre:</p>
       <a href={watch_url} target="_blank">
-        <button style={myStyle}>Watch Now</button>
+        <Button rating={rating}>Watch Now</Button>
+        {/* <button style={myStyle}>Watch Now</button> */}
       </a>
     </li>
   );
