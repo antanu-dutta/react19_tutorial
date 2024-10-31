@@ -11,7 +11,7 @@ export const State = () => {
 
   return (
     <>
-      <div className="m-8 text-3xl flex items-center flex-col gap-8 justify-center h-screen">
+      <div className="text-3xl flex items-center flex-col gap-8 justify-center h-screen w-full">
         <h1>{count}</h1>
         <button
           onClick={handleButtonClick}
