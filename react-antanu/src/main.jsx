@@ -5,7 +5,8 @@ import "./index.css";
 // import { EventHandling } from "./components/EventHandling.jsx";
 // import { EventProps } from "./components/EventProps.jsx";
 // import { EventPropagation } from "./components/EventPropagation.jsx";
-import { State } from "./components/hooks/State.jsx";
+// import { State } from "./components/hooks/State.jsx";
+import { UseStateChallenge } from "./components/hooks/hook pratice/UseStateChallenge.jsx";
 // import { Practices } from "./Practices.jsx";
 // import Profile from "./components/Profile.jsx";
 
@@ -14,7 +15,8 @@ createRoot(document.getElementById("root")).render(
     {/* <EventHandling /> */}
     {/* <EventProps /> */}
     {/* <EventPropagation /> */}
-    <State />
+    {/* <State /> */}
+    <UseStateChallenge />
     {/* <App /> */}
     {/* <Practices /> */}
     {/* <Profile /> */}
