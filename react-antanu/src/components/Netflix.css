@@ -15,3 +15,15 @@
         box-shadow: 0px 10px 20px 0px #c2c2c2;
     }
 }
+.super_hit{
+    background-color: #7dcea0;
+}
+.average{
+    background-color: yellow;
+}
+.rating{
+    padding: 0.3rem 1.8rem ;
+    color: #000;
+    margin-left: 1.2rem;
+    border-radius: 100rem;
+}
