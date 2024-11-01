@@ -58,9 +58,18 @@ const TodoList = ({ todos, setTodos }) => {
           </li>
         ))}
       </ul>
-      <button className="py-2 px-5 bg-red-500 rounded" onClick={handleClearAll}>
-        Clear
-      </button>
+      {todos.length > 0 ? (
+        <button
+          className="py-2 px-5 bg-red-500 rounded"
+          onClick={handleClearAll}
+        >
+          Clear
+        </button>
+      ) : (
+        <h1 className="text-2xl font-semibold tracking-wider text-gray-700">
+          Your Todo is Empty
+        </h1>
+      )}
     </>
   );
 };

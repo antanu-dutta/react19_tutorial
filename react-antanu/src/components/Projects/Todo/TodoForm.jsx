@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 /* eslint-disable react/prop-types */
 const TodoForm = ({ input, setInput, todos, setTodos }) => {
   // Form submittion Function
@@ -30,10 +28,6 @@ const TodoForm = ({ input, setInput, todos, setTodos }) => {
     // clearing input value
     setInput("");
   };
-
-  useEffect(() => {
-    localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
 
   return (
     <form onSubmit={handleFormSubmit}>
