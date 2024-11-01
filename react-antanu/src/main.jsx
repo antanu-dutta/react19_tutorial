@@ -6,7 +6,8 @@ import "./index.css";
 // import { EventProps } from "./components/EventProps.jsx";
 // import { EventPropagation } from "./components/EventPropagation.jsx";
 // import { State } from "./components/hooks/State.jsx";
-import { UseStateChallenge } from "./components/hooks/hook pratice/UseStateChallenge.jsx";
+// import { UseStateChallenge } from "./components/hooks/hook pratice/UseStateChallenge.jsx";
+import { SwitchToggle } from "./components/Projects/ToggleSwitch/SwitchToggle.jsx";
 // import { Practices } from "./Practices.jsx";
 // import Profile from "./components/Profile.jsx";
 
@@ -16,7 +17,8 @@ createRoot(document.getElementById("root")).render(
     {/* <EventProps /> */}
     {/* <EventPropagation /> */}
     {/* <State /> */}
-    <UseStateChallenge />
+    {/* <UseStateChallenge /> */}
+    <SwitchToggle />
     {/* <App /> */}
     {/* <Practices /> */}
     {/* <Profile /> */}
