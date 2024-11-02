@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import { TodoContainer } from "./components/Projects/Todo/TodoContainer";
+
+import { UseStateChallenge } from "./components/Hooks Challenge/UseStateChallenge";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <TodoContainer />
+    <UseStateChallenge />
   </StrictMode>
 );

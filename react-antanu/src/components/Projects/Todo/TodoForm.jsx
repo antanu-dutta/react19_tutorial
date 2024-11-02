@@ -1,5 +1,9 @@
 /* eslint-disable react/prop-types */
-const TodoForm = ({ input, setInput, todos, setTodos }) => {
+import { useState } from "react";
+
+const TodoForm = ({ todos, setTodos }) => {
+  const [input, setInput] = useState("");
+
   // Form submittion Function
   const handleFormSubmit = (e) => {
     e.preventDefault(); // Preventing the default behaviour of form
