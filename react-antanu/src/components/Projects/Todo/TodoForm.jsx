@@ -31,15 +31,18 @@ const TodoForm = ({ input, setInput, todos, setTodos }) => {
 
   return (
     <form onSubmit={handleFormSubmit}>
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center flex-col tablet:flex-row justify-center gap-6">
         <input
           type="text"
-          className="ps-3 p-1 border-2 rounded w-[300px] outline-none text-black"
+          className="ps-3 p-1 border-2 tablet:text-lg rounded tablet:w-[400px] tablet:h-[50px] outline-none text-black"
           autoComplete="off"
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button type="submit" className="bg-green-500 p-2 px-6 rounded">
+        <button
+          type="submit"
+          className="bg-green-500 p-2 px-6 rounded hover:bg-green-400 tablet:h-[50px]"
+        >
           Add
         </button>
       </div>

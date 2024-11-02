@@ -23,7 +23,7 @@ export const TodoTime = () => {
   const time = dateTime.toLocaleTimeString();
 
   return (
-    <p className="text-xl font-bold">
+    <p className="text-xl tablet:text-3xl laptop:text-2xl font-bold">
       {date} - {day} - {time}
     </p>
   );

@@ -3,7 +3,7 @@ import { IoMdCheckmark } from "react-icons/io";
 import { MdDelete } from "react-icons/md";
 
 const TodoList = ({ todos, setTodos }) => {
-  // function for checking if the todo task is completed or not
+  // ?  function for checking if the todo task is completed or not
   const handleTodoCheck = (id) => {
     const todo = todos.map((curElem) =>
       curElem.id === id
@@ -11,16 +11,14 @@ const TodoList = ({ todos, setTodos }) => {
         : curElem
     );
     setTodos(todo);
-    localStorage.setItem("todos", JSON.stringify(todo)); // setting the todo list to localstorage
   };
 
-  // function for clearing everything from the todo array and the localstorage
+  // ?  function for clearing everything from the todo array and the localstorage
   const handleClearAll = () => {
     setTodos([]);
-    localStorage.clear();
   };
 
-  // function for delete todo item
+  // ? function for delete todo item
   const handleDeleteTodo = (id) => {
     const filteredTodo = todos.filter((curElem) => curElem.id !== id);
     setTodos(filteredTodo);
@@ -28,14 +26,14 @@ const TodoList = ({ todos, setTodos }) => {
 
   return (
     <>
-      <ul className="w-[400px] mx-auto">
+      <ul className="w-[330px] tablet:w-[500px] mx-auto">
         {todos.map((curElem) => (
           <li
             key={curElem.id}
             className="flex items-center mb-5 justify-between bg-white p-2 text-black rounded"
           >
             <span
-              className={`text-lg font-medium ${
+              className={`text-base tablet:text-lg font-medium ${
                 curElem.completed ? "line-through" : ""
               }`}
             >
