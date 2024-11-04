@@ -1,11 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-// import Resgistration from "./components/hooks/Resgistration";
-import LoginForm from "./components/hooks/LoginForm";
+
+import UseEffectChallenge from "./components/hooks/hook pratice/UseEffectChallenge";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <LoginForm />
+    {/* <ContactForm /> */}
+    <UseEffectChallenge />
   </StrictMode>
 );
