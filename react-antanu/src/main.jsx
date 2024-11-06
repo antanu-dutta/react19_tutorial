@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Theme from "./components/Projects/Theme/Theme";
+
+import { UseReducer } from "./components/hooks/UseReducer/UseReducer";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Theme />
+    <UseReducer />
   </StrictMode>
 );
