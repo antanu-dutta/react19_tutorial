@@ -6,7 +6,7 @@ export const UseReducer = () => {
       case "INCREAMENT":
         return (state += 1);
       case "DECREAMENT":
-        return state - 1 === 0 ? (state = 0) : (state -= 1);
+        return state - 1 === 0 ? 0 : (state -= 1);
       default:
         break;
     }
